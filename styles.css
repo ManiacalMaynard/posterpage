@@ -54,6 +54,20 @@ i {
   margin: 0.5rem 3rem;
 }
 
-#main > img {
-  width: 75%;
+#cardDeck {
+  width: 90%;
+  padding: 0.25rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid white;
+}
+
+.card > img {
+  max-width: 50%;
 }
